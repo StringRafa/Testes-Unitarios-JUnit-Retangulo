@@ -1,26 +1,13 @@
 package services;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
+
 
 public class RetanguloTest2 {
 
 //	@Ignore  //Ignora o teste
-	@Test
-	public void test() {
-		Retangulo retangulo = new Retangulo(2, 2);
-		int resultadoEsperadoArea = 4;
-		int resultadoEsperadoPerimetro = 8;
-
-		int resultadoArea = retangulo.calcularArea();
-
-		int resultadoPerimetro = retangulo.calcularPerimetro();
-
-		assertTrue(resultadoArea == resultadoEsperadoArea && resultadoPerimetro == resultadoEsperadoPerimetro);
-	}
-
 	@Test
 	public void testArea() {
 		Retangulo retangulo = new Retangulo(2, 2);

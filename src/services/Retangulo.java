@@ -5,10 +5,6 @@ public class Retangulo {
 	private int altura, base;
 	private boolean timeout = false;
 
-	public Retangulo() {
-
-	}
-
 	public Retangulo(int base, int altura) {
 		this.base = base;
 		this.altura = altura;
