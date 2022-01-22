@@ -11,7 +11,7 @@ public class RetanguloTestJUnit {
 	public void testAreaTimeout() {
 		int base = 2, altura = 2;
 		Retangulo re = new Retangulo(base, altura);
-		re.setTimeout(false);
+		re.setTimeout(true);
 		
 		int resultado = re.calcularArea();
 		assertEquals(4, resultado);

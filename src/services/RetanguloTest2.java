@@ -5,10 +5,10 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.Ignore;
 import org.junit.jupiter.api.Test;
 
-class RetanguloTest2 {
+public class RetanguloTest2 {
 
 	@Ignore  //Ignora o teste
-	void test() {
+	public void test() {
 		Retangulo retangulo = new Retangulo(2, 2);
 		int resultadoEsperadoArea = 4;
 		int resultadoEsperadoPerimetro = 8;
@@ -21,8 +21,9 @@ class RetanguloTest2 {
 	}
 
 	@Test
-	void testArea() {
+	public void testArea() {
 		Retangulo retangulo = new Retangulo(2, 2);
+		retangulo.setTimeout(false);
 		int resultadoEsperadoArea = 4;
 
 		int resultadoArea = retangulo.calcularArea();
@@ -31,7 +32,7 @@ class RetanguloTest2 {
 	}
 
 	@Test
-	void testPerimetro() {
+	public void testPerimetro() {
 		Retangulo retangulo = new Retangulo(2, 2);
 
 		int resultadoPerimetro = retangulo.calcularPerimetro();
