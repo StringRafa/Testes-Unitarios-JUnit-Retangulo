@@ -1,13 +1,14 @@
 package services;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.Ignore;
 import org.junit.jupiter.api.Test;
 
 public class RetanguloTest2 {
 
-	@Ignore  //Ignora o teste
+//	@Ignore  //Ignora o teste
+	@Test
 	public void test() {
 		Retangulo retangulo = new Retangulo(2, 2);
 		int resultadoEsperadoArea = 4;
